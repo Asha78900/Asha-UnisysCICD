@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 
 chrome_driver = webdriver.Chrome()
 chrome_driver.get("https://rahulshettyacademy.com/angularpractice/")
-time.sleep(3)
+time.sleep(2)
 chrome_driver.maximize_window()
 #to print the title
 print("page title:",chrome_driver.title)
